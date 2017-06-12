@@ -1,0 +1,12 @@
+<li class="row">
+    <a href={{page.url}}>
+      {{page.title}}
+      <br>
+      {{page.url}}
+    </a>
+    <span class="buttons">
+        <button class="btn" ng-click="$ctrl.onShowSummary()">Site Summary</button>
+        <button class="btn btn-danger" ng-click="$ctrl.onDeletePage(index)">Delete</button>
+    </span>
+    <p ng-if="$ctrl.showSummary">{{page.summary}}</p>
+</li>

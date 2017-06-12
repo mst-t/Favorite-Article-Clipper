@@ -1,0 +1,33 @@
+html,
+body {
+    font-size: 1.1em;
+    font-family: 'Slabo 27px', serif;
+}
+
+body {
+  background-image: url("images/paper_fibers.png");
+  background-repeat: repeat;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    border-bottom: solid 1px lightgrey;
+}
+
+ul li a {
+    font-size: 1.6em;
+}
+
+.buttons {
+    float: right;
+}
+
+input {
+    padding: 2px;
+    border: solid 5px lightgrey;
+    border-radius: 4px;
+}
