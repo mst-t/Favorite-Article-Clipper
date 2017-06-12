@@ -8,7 +8,7 @@ class FavoriiPageUrl {
     constructor($http) {
         return (newUrl) => ($http({
             "method": 'GET',
-            "url": 'YOUR_SERVER_URL',
+            "url": 'http://localhost:3000/api/',
             "params": {
               "url": newUrl
             }

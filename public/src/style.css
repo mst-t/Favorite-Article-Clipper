@@ -1,6 +1,5 @@
 html,
 body {
-    font-size: 1.1em;
     font-family: 'Slabo 27px', serif;
 }
 
@@ -19,7 +18,7 @@ ul li {
 }
 
 ul li a {
-    font-size: 1.6em;
+    font-size: 1.5em;
 }
 
 .buttons {
@@ -27,7 +26,12 @@ ul li a {
 }
 
 input {
+    width: 48%;
     padding: 2px;
-    border: solid 5px lightgrey;
+    border: solid 6px lightgrey;
     border-radius: 4px;
+}
+
+.enter {
+    margin: 2em auto 0 auto;
 }
