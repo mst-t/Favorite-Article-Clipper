@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 
-const APPLICATION_KEY = 'YOUR_API',
-      APPLICATION_ID = 'YOUR_APP';
+const APPLICATION_KEY = '84300f4e47e77bda6dd111735815a6cf',
+      APPLICATION_ID = '24acc37c';
 
 const AYLIENTextAPI = require('aylien_textapi');
 const textapi = new AYLIENTextAPI({

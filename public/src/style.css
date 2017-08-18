@@ -35,3 +35,9 @@ input {
 .enter {
     margin: 2em auto 0 auto;
 }
+
+footer {
+    position: fixed;
+    bottom: 2em;
+    font-size: 1.2em;
+}

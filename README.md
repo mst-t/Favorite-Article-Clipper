@@ -13,5 +13,8 @@ Download all files and run `npm install`. Required node modules will be installe
 2. Set your localserver in `public/src/favoriiFactory.js`.
 3. Move to the working directory and run `node app.js`.
 
+## Live Demo
+https://sheltered-savannah-96980.herokuapp.com/
+
 ## License
 This software is released under the MIT License, see LICENSE.txt.
